@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Encuesta</title>
+    <link rel="stylesheet" type="text/css" href="../css/encuesta.css">
+</head>
+<body>
+     <header>
+        <div class="logo"> CAFETERIA</div>
+        <nav>
+           <li><a href="../index.html"><i class="fa-solid fa-house"> </i> INICIO</a></li>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <h2>Encuesta (10 preguntas cerradas)</h2>
+        <form class="encuesta" action="../resultado.php" method="POST">
+            <!-- Preguntas del 1 al 10 -->
+            <p>1.  ¿Con qué frecuencia visitas nuestra cafetería?</p>
+            <input type="radio" name="p1" value="Diariamente" required> Diariamente
+            <input type="radio" name="p1" value="Semanalmente"> Semanalmente
+            <input type="radio" name="p1" value="Rara vez"> Rara vez
+
+            <p>2. ¿Cómo calificarías la calidad de nuestros productos?</p>
+            <input type="radio" name="p2" value="Exelente" required> Exelente
+            <input type="radio" name="p2" value="Buena"> Buena
+            <input type="radio" name="p2" value="Mala"> Mala
+
+
+            <p>3. ¿Qué producto consumes con mayor frecuencia?</p>
+            <input type="radio" name="p3" value="Te" required> Te
+            <input type="radio" name="p3" value="Cafe"> Cafe
+            <input type="radio" name="p3" value="Pasteles"> Pasteles
+             <input type="radio" name="p3" value="Snacks"> Snacks
+
+
+            <p>4. ¿Te gusto el menu?</p>
+            <input type="radio" name="p4" value="Sí" required> Sí
+            <input type="radio" name="p4" value="No"> No
+
+            <p>5. ¿Te gustaría añadir mas bebidas?</p>
+            <input type="radio" name="p5" value="Sí" required> Sí
+            <input type="radio" name="p5" value="No"> No
+
+            <p>6. ¿Te gustaria ver mas opciones vegetarianas en nuestro menu?</p>
+            <input type="radio" name="p6" value="Sí" required> Sí
+            <input type="radio" name="p6" value="No"> No
+
+            <p>7. ¿Confías en esta página?</p>
+            <input type="radio" name="p7" value="Sí" required> Sí
+            <input type="radio" name="p7" value="No"> No
+
+            <p>8. ¿Nuestros precios son razonables?</p>
+            <input type="radio" name="p8" value="Sí" required> Sí
+            <input type="radio" name="p8" value="No"> No
+
+            <p>9. ¿Te gustaria Otro diseño de la pagina?</p>
+            <input type="radio" name="p9" value="Sí" required> Sí
+            <input type="radio" name="p9" value="No"> No
+
+            <p>10. ¿Te gusto nuestro ambiente?</p>
+            <input type="radio" name="p10" value="Sí" required> Sí
+            <input type="radio" name="p10" value="No"> No
+
+            <br><br>
+            <button type="submit">Enviar encuesta</button>
+        </form>
+    </div>
+</body>
+</html> 

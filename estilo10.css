@@ -1,0 +1,137 @@
+/* Fuente cursiva desde Google Fonts ya está enlazada en HTML */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf4;
+    font-family: 'Dancing Script', cursive;
+    color: #4b2e2e;
+}
+
+/* Encabezado */
+header.contenedor {
+    background-color: #fce3c6;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 4em;
+    margin: 0;
+    color: #6e3c1d;
+}
+
+/* Menú de navegación */
+.contenedormenu {
+    background-color: #ffdcc0;
+    padding: 10px 0;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+.contenedormenu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
+    gap: 20px;
+}
+
+.contenedormenu ul li a {
+    text-decoration: none;
+    color: #4b2e2e;
+    font-size: 1.4em;
+    padding: 8px 16px;
+    background-color: #f7cba2;
+    border-radius: 12px;
+    transition: all 0.3s ease;
+}
+
+.contenedormenu ul li a:hover {
+    background-color: #d99c72;
+    color: white;
+}
+
+/* Sección de contenido */
+.contenido {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fff7ed;
+    border: 2px solid #f1c9a8;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 1.5em;
+    line-height: 1.8;
+}
+
+.logo-center {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.logo-center img {
+    width: 220px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Redes sociales */
+.redes {
+    background-color: #ffe7d3;
+    padding: 30px;
+    text-align: center;
+}
+
+.redes h2 {
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.redes ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.redes ul li a {
+    text-decoration: none;
+    color: #4b2e2e;
+    font-size: 1.3em;
+    transition: color 0.3s ease;
+}
+
+.redes ul li a:hover {
+    color: #b75d3d;
+}
+
+.redes i {
+    margin-right: 8px;
+}
+
+/* Ubicación */
+.ubicacion {
+    background-color: #fff2e0;
+    text-align: center;
+    padding: 40px 20px;
+    border-top: 3px solid #e6b68f;
+}
+
+.ubicacion h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.ubicacion iframe {
+    width: 90%;
+    max-width: 800px;
+    height: 300px;
+    border: 2px solid #d9a273;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
