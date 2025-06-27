@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>REGISTRA TU COMPRA</title>
+	<link rel="stylesheet" href="estilore.css">
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+	<h1>Introducir los siguientes datos</h1>
+
+	<div class="contenedor">
+		<form method="POST" action="cafere.php">
+			<div class="cajas">
+				<label for="numero_orden">Número de orden:</label>
+				<input type="text" id="numero_orden" name="numero_orden" required placeholder="Teclea tu número de orden" maxlength="11">
+			</div>
+
+			<div class="cajas">
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre" required placeholder="Teclea tu nombre" maxlength="30">
+			</div>
+
+			<div class="cajas">
+				<label for="apellido">Apellido:</label>
+				<input type="text" id="apellido" name="apellido" required placeholder="Teclea tu apellido" maxlength="40">
+			</div>
+
+			<div class="cajas">
+				<label for="edad">Edad:</label>
+				<input type="text" id="edad" name="edad" required placeholder="Teclea tu edad" min="1" max="120">
+			</div>
+
+			<div class="cajas">
+				<label for="costo">costo:</label>
+				<input type="text" id="costo" name="costo" required placeholder="Teclea el costo" min="1" max="120">
+			</div>
+
+
+			<div class="cajas">
+				<label for="fecha_compra">Fecha de Compra:</label>
+				<input type="date" id="fecha_compra" name="fecha_compra" required>
+			</div>
+
+			<button type="submit">Enviar</button>
+			<button type="reset">Cancelar</button>
+		</form>
+	</div>
+
+	<div class="contenedormenu">
+		<ul>
+			<li><a href="index.html"><i class="fa-solid fa-house"> </i> INICIO</a></li>
+			<li><a href="html/productos.html"><i class="fa-solid fa-box-open"> </i> PRODUCTO</a></li>
+			<li><a href="html/encuesta.html"><i class="fa-solid fa-laravel-svg"> </i> ENCUESTA</a></li>
+			<li><a href="cafere.html">REGISTRA TU COMPRA</a></li>
+
+		</ul>
+	</div>
+</body>
+</html>
